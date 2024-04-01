@@ -1,0 +1,57 @@
+
+{% extends 'main/base.html' %}
+{% load static %}
+{% block page_content %}
+
+		<!-- Секция дизай и изработка  - начало -->
+		<div class="product-section">
+			<div class="container">
+				<div class="row">
+				</div>
+			</div>
+		</div>
+		<!--Секция дизай и изработка  - край -->
+
+		<!-- Секция услуги - начало -->
+		<div class="why-choose-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6">
+						<h2 class="section-title">Просторен шоурум</h2>
+						<p> Обзавеждате или просто разкрасявате жилището? Вдъхновението никога не е достатъчно.
+							В нашият магазин ще намерите много интересни и практични съвети, за това как да подобрите и
+							раздвижите всяка част от дома си.</p>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="img-wrap">
+							<img src="{% static 'images/shop_1.jpg' %}" alt="Image" class="img-fluid">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- Секция услуги - край -->
+
+		<!-- Секция решения - начало -->
+		<div class="we-help-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7 mb-5 mb-lg-0">
+						<div class="imgs-grid">
+							<div class="grid grid-1"><img src="{% static 'images/shop_2.jpg' %}" alt="Untree.co"></div>
+							<div class="grid grid-2"><img src="{% static 'images/img-grid-2.jpg' %}" alt="Untree.co"></div>
+							<div class="grid grid-3"><img src="{% static 'images/post-2.jpg' %}" alt="Untree.co"></div>
+						</div>
+					</div>
+					<div class="col-lg-5 ps-lg-5">
+						<h2 class="section-title mb-4">Цялостни интериорни решения</h2>
+						<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Секция решения - край -->
+
+{% endblock %}
