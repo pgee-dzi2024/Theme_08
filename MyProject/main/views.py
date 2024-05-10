@@ -42,6 +42,10 @@ def shop(request):
     return render(request, 'main/shop.html', context)
 
 
+def login(request):
+    return render(request, 'main/login.html')
+
+
 def catalog(request):
     menu = {
             "home": '',
